@@ -1,10 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Route, Switch } from "react-router-dom";
+import Navigate from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <header>This is just the beginning</header>
+      <Navigate />
+      <Switch></Switch>
     </div>
   );
 }
