@@ -1,12 +1,17 @@
 import React from "react";
-import Footer from "../../components/Footer";
-import Navigate from "../../components/Navbar";
-import Container from "react-bootstrap/Container";
+
+import { Container, Row } from "react-bootstrap";
+import ProjectCard from "../../components/ProjectCard";
 
 function Home() {
   return (
     <Container>
       <h1>Just a test</h1>
+      <Row>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </Row>
     </Container>
   );
 }
